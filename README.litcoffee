@@ -5,7 +5,7 @@ UPPERCASE run with CoffeeScript!
 
 CONTACT: contact@btncafe.com
 
-EXAMPLE:
+EXAMPLE: nodemon FlappyBug.coffee
 
 	require './COFFEECASE/BOOT.coffee'
 
