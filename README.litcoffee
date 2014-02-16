@@ -1,7 +1,8 @@
 COFFEECASE
 ==========
-
 UPPERCASE run with CoffeeScript!
+
+![ScreenShot](https://raw.github.com/BTNcafe/COFFEECASE/master/COFFEECASE.png)
 
 CONTACT: contact@btncafe.com
 
