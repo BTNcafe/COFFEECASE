@@ -6,7 +6,7 @@ global.BOOT = (params) ->
 	
 	compile = (require './coffee-script.js').CoffeeScript.compile
 
-	params.OTHER_LANGS =
+	params.MULTI_LANG_SUPPORT =
 		coffee : (code) ->
 			compile code
 		litcoffee : (code) ->
