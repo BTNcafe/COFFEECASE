@@ -12,7 +12,7 @@ EXAMPLE: nodemon FlappyBug.coffee
 
 	BOOT 
 		CONFIG :
-			defaultBoxName : 'FlappyBug',
+			defaultBoxName : 'WebPageExample',
 			isDevMode : true,
 			
 			Facebook :

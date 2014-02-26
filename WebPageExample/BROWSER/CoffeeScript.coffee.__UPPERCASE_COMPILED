@@ -1,0 +1,28 @@
+//1393382784000
+(function() {
+  WebPageExample.CoffeeScript = CLASS({
+    preset: function() {
+      return VIEW;
+    },
+    init: function(cls, inner, self) {
+      var close, div;
+      div = DIV({
+        style: {
+          fontSize: 50
+        },
+        children: [
+          A({
+            children: ['<-BACK'],
+            onTap: function() {
+              return WebPageExample.GO('');
+            }
+          }), BR(), 'CoffeeScript!'
+        ]
+      }).appendTo(BODY);
+      return self.close = close = function(params) {
+        return div.remove();
+      };
+    }
+  });
+
+}).call(this);
