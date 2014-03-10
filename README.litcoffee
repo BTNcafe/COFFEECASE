@@ -6,7 +6,7 @@ UPPERCASE run with CoffeeScript!
 
 CONTACT: contact@btncafe.com
 
-EXAMPLE: nodemon FlappyBug.coffee
+EXAMPLE: nodemon README.coffee
 
 	require './COFFEECASE/BOOT.coffee'
 
@@ -20,6 +20,3 @@ EXAMPLE: nodemon FlappyBug.coffee
 
 		SERVER_CONFIG :
 			isNotUsingDB : true
-			
-		BROWSER_CONFIG : 
-			isSupportHD : false
