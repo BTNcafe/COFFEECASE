@@ -1,6 +1,6 @@
 COFFEECASE
 ==========
-UPPERCASE run with CoffeeScript!
+UPPERCASE run with IcedCoffeeScript!
 
 ![ScreenShot](https://raw.github.com/BTNcafe/COFFEECASE/master/COFFEECASE.png)
 
