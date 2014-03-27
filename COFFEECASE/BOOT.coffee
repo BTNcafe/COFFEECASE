@@ -8,8 +8,8 @@ global.BOOT = (params) ->
 
 	params.MULTI_LANG_SUPPORT =
 		coffee : (code) ->
-			compile code
+			compile code, { runtime: 'inline' }
 		litcoffee : (code) ->
-			compile code, { literate: true }
+			compile code, { literate: true, runtime: 'inline' }
 		
 	_BOOT params

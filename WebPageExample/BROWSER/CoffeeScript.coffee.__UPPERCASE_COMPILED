@@ -1,4 +1,4 @@
-//1394442683000
+//1395888726000
 (function() {
   WebPageExample.CoffeeScript = CLASS({
     preset: function() {
@@ -16,7 +16,7 @@
             onTap: function() {
               return WebPageExample.GO('');
             }
-          }), BR(), 'CoffeeScript!'
+          }), BR(), 'IcedCoffeeScript!'
         ]
       }).appendTo(BODY);
       return self.close = close = function(params) {

@@ -12,7 +12,7 @@ WebPageExample.CoffeeScript = CLASS
 				children : ['<-BACK']
 				onTap : ->
 					WebPageExample.GO ''
-			}), BR(), 'CoffeeScript!']
+			}), BR(), 'IcedCoffeeScript!']
 		).appendTo BODY
 
 		#OVERRIDE: self.close
